@@ -3,27 +3,28 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <BaseOutputPath>.\xfg_csharp_mod\Csharp</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\ValveSteam\steamapps\common\息风谷战略\WindstopStrategy_Data\Managed\0Harmony.dll</HintPath>
+      <HintPath>Dll\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\ValveSteam\steamapps\common\息风谷战略\WindstopStrategy_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>Dll\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\ValveSteam\steamapps\common\息风谷战略\WindstopStrategy_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>Dll\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ZhanGuoWuxia.Backend">
-      <HintPath>..\..\..\ValveSteam\steamapps\common\息风谷战略\WindstopStrategy_Data\Managed\ZhanGuoWuxia.Backend.dll</HintPath>
+      <HintPath>Dll\ZhanGuoWuxia.Backend.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ZhanGuoWuxia.CSharpMod">
-      <HintPath>..\..\..\ValveSteam\steamapps\common\息风谷战略\WindstopStrategy_Data\Managed\ZhanGuoWuxia.CSharpMod.dll</HintPath>
+      <HintPath>Dll\ZhanGuoWuxia.CSharpMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
