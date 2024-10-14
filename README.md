@@ -6,3 +6,4 @@
 * ```SamplePlugin.cs``` 为 Plugin的代码示例。
 * ```SamplePatcher.cs``` 为Hamonry补丁的代码示例。
 * 项目会默认将DLL生成到```xfg_csharp_mod/Csharp```目录下
+* .gitignore文件忽略了生成的Debug目录，因此调试```xfg_csharp_mod```前你需要执行一次【生成解决方案】。
